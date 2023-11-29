@@ -1,0 +1,12 @@
+#navbar{
+    height: 61px !important; 
+}
+
+#carousel-img{
+    height: 690px !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(60%);
+}
