@@ -93,4 +93,8 @@
 }
 .process{
   text-align: center;
+  font-style: oblique;
+}
+.iprocess{
+  height: 25%;
 }
