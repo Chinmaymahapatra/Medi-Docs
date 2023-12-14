@@ -333,7 +333,6 @@ button:focus {
 .about-first {
   height: 430px;
   width: 100%;
-  background-color: cyan;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -355,13 +354,19 @@ button:focus {
 .about-first-image {
   height: 430px;
   width: 515px;
-  background-color: green;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.about-first-img {
+  width: 405px;
+  height: 370px;
 }
 
 .about-second {
-  height: 430px;
+  height: 500px;
   width: 100%;
-  background-color: wheat;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -370,14 +375,22 @@ button:focus {
 }
 
 .about-second-content {
-  height: 120px;
-  width: 450px;
+  width: 500px;
 }
 
 .about-second-image {
   height: 430px;
   width: 515px;
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+
+}
+
+.about-second-img {
+  height: 400px;
+  width: 288px;
 }
 
 .about-third {
@@ -405,7 +418,6 @@ button:focus {
 .about-team {
   height: 450px;
   width: 100%;
-  background-color: aliceblue;
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -447,9 +459,35 @@ button:focus {
   text-align: center;
   display: flex;
   justify-content: center;
+
+}
+
+#M1 {
+  background-image: url(images/conti1.jpg);
+  background-size: cover;
+}
+
+#M2 {
+  background-image: url(images/conti2.jpg);
+  background-size: cover;
+}
+
+#M3 {
+  background-image: url(images/contri3.png);
+  background-size: cover;
+}
+
+#M4 {
+  background-image: url(images/contri4.png);
+  background-size: cover;
 }
 
 .member-info {
   align-self: flex-end;
   text-align: center;
+  margin-top: 5px;
+}
+
+.role-info {
+  font-family: 'Kalnia', serif;
 }
