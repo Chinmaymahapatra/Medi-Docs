@@ -344,6 +344,7 @@ button:focus {
 .about-first-content {
   height: 120px;
   width: 450px;
+  margin-left: 10%;
 }
 
 .about-first-content>h1 {
