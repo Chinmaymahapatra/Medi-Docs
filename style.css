@@ -4,10 +4,12 @@
   width: 100%;
   background-color: rgb(230, 229, 229);
 }
-#User{
+
+#User {
   color: white;
   text-decoration: none;
 }
+
 #carousel-img {
   height: 690px !important;
 }

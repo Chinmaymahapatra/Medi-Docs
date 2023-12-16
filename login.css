@@ -1,3 +1,13 @@
+body {
+    background-image: url("./images/Login_img.jpg");
+    opacity: 60%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Login */
 .loginbox {
     background-color: #ffffff;
     border-radius: 20px;
@@ -8,13 +18,13 @@
     width: 100%;
     justify-content: center;
     display: flex;
-  }
-  
-  .ggl {
-    margin-left: 17%;
-  }
-  
-  .account-text {
+}
+
+.input {
+    width: 60%;
+}
+
+.account-text {
     color: #000000;
     font-family: "Space Grotesk-Bold", Helvetica;
     font-size: 35px;
@@ -23,27 +33,32 @@
     width: 100%;
     margin-left: 38%;
     margin-top: 15%;
-  }
-  .or {
+}
+
+.or {
     color: #969393;
     font-family: "Space Grotesk-Medium", Helvetica;
     font-size: 18px;
     font-weight: 500;
     margin-top: 5%;
     margin-left: 47%;
-  }
-  .sign-up-form {
+}
+
+/* Singup */
+.sign-up-form {
     display: flex;
     flex-direction: column;
     width: 65%;
     height: 400px;
     margin-left: 25%;
     margin-top: 1%;
-  }
-  .sign-up-form input {
+}
+
+.sign-up-form input {
     width: 100%;
-  }
-  .formtext {
+}
+
+.formtext {
     color: #b0b0b0;
     font-family: "Space Grotesk-Regular", Helvetica;
     font-size: 16px;
@@ -53,8 +68,9 @@
     padding: 5px;
     margin-top: 10%;
     margin-left: -7%;
-  }
-  .submitbtn {
+}
+
+.submitbtn {
     color: #ffffff;
     font-family: "Space Grotesk-Bold", Helvetica;
     font-size: 20px;
@@ -64,8 +80,9 @@
     border-radius: 10px;
     margin-top: 8%;
     border: none;
-  }
-  .submitbtn1 {
+}
+
+.submitbtn1 {
     color: #ffffff;
     font-family: "Space Grotesk-Bold", Helvetica;
     font-size: 20px;
@@ -75,29 +92,19 @@
     border-radius: 10px;
     margin-top: 8%;
     border: none;
-  }
-  .buttonkabaap {
+}
+
+.buttonkabaap {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     margin-right: 15%;
-  }
-  .already {
+}
+
+.already {
     color: #b0b0b0;
     font-family: "Space Grotesk-Regular", Helvetica;
     font-size: 20px;
     font-weight: 400;
     margin-left: 15%;
-  }
-  .input {
-    width: 60%;
-  }
-  body {
-    background-image: url("WhatsApp\ Image\ 2023-12-14\ at\ 09.36.45_89248f23.jpg");
-    opacity: 60%;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+}
