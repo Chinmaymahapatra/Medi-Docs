@@ -498,3 +498,10 @@ button:focus {
 .role-info {
   font-family: 'Kalnia', serif;
 }
+
+/* Dashboard */
+#SideBar {
+  height: 100% !important;
+  width: 280px !important;
+  position: absolute;
+}
