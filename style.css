@@ -1,7 +1,13 @@
 #navbar {
   height: 61px !important;
+  z-index: 5;
+  width: 100%;
+  background-color: rgb(230, 229, 229);
 }
-
+#User{
+  color: white;
+  text-decoration: none;
+}
 #carousel-img {
   height: 690px !important;
 }
@@ -333,7 +339,6 @@ button:focus {
 .about-first {
   height: 430px;
   width: 100%;
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -406,7 +411,6 @@ button:focus {
 }
 
 .about-third-content {
-  height: 120px;
   width: 450px;
 }
 

@@ -1,0 +1,103 @@
+.loginbox {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .ggl {
+    margin-left: 17%;
+  }
+  
+  .account-text {
+    color: #000000;
+    font-family: "Space Grotesk-Bold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    margin-left: 38%;
+    margin-top: 15%;
+  }
+  .or {
+    color: #969393;
+    font-family: "Space Grotesk-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-left: 47%;
+  }
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 1%;
+  }
+  .sign-up-form input {
+    width: 100%;
+  }
+  .formtext {
+    color: #b0b0b0;
+    font-family: "Space Grotesk-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #b0b0b0;
+    padding: 5px;
+    margin-top: 10%;
+    margin-left: -7%;
+  }
+  .submitbtn {
+    color: #ffffff;
+    font-family: "Space Grotesk-Bold", Helvetica;
+    font-size: 20px;
+    height: 35px;
+    width: 40%;
+    background-color: #000000 !important;
+    border-radius: 10px;
+    margin-top: 8%;
+    border: none;
+  }
+  .submitbtn1 {
+    color: #ffffff;
+    font-family: "Space Grotesk-Bold", Helvetica;
+    font-size: 20px;
+    height: 35px;
+    width: 30%;
+    background-color: #000000 !important;
+    border-radius: 10px;
+    margin-top: 8%;
+    border: none;
+  }
+  .buttonkabaap {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: 15%;
+  }
+  .already {
+    color: #b0b0b0;
+    font-family: "Space Grotesk-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15%;
+  }
+  .input {
+    width: 60%;
+  }
+  body {
+    background-image: url("WhatsApp\ Image\ 2023-12-14\ at\ 09.36.45_89248f23.jpg");
+    opacity: 60%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
