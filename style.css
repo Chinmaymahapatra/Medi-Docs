@@ -500,10 +500,15 @@ button:focus {
 }
 
 /* Dashboard */
+.user-navbar{
+  background-color: #64add4;
+}
+
 #SideBar {
-  height: 100% !important;
+  height: 100%;
   width: 280px !important;
   position: fixed;
+  background-color: #90b9c5 !important;
 }
 
 .dash-logo {
@@ -522,16 +527,28 @@ button:focus {
 .dash-main {
   height: 100%;
   width: 100%;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
 }
 
 .dash-cardbody {
   height: 200px;
-  background-color: aqua;
-  border-radius: 5px;
-  width: calc(100% - 100px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: #98D9E1;
+  border-style:solid;
+  border-color: black;
+  width: calc(100% - 570px);
   margin-left: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-info{
+  height: 30px;
+  width: calc(100% - 70px);
+  
 }
 
 .main {
