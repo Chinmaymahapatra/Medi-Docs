@@ -1,27 +1,22 @@
-body {
-    background-image: url("./images/Login_img.jpg");
-    opacity: 60%;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+*{
+ margin: 0;  
+ padding:0;
+} 
 /* Login */
 .loginbox {
-    background-color: #ffffff;
-    border-radius: 20px;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    background-image: url("./images/Login_img.jpg");
+    background-size:cover;
     justify-content: center;
-    display: flex;
+    display: flex
 }
 
 .input {
     width: 60%;
+}
+
+.login-logo {
+    height: 100px;
+    width: 100px;
 }
 
 .account-text {
@@ -29,20 +24,13 @@ body {
     font-family: "Space Grotesk-Bold", Helvetica;
     font-size: 35px;
     font-weight: 700;
-    line-height: normal;
     width: 100%;
-    margin-left: 38%;
     margin-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.or {
-    color: #969393;
-    font-family: "Space Grotesk-Medium", Helvetica;
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 5%;
-    margin-left: 47%;
-}
 
 /* Singup */
 .sign-up-form {
@@ -52,6 +40,7 @@ body {
     height: 400px;
     margin-left: 25%;
     margin-top: 1%;
+
 }
 
 .sign-up-form input {
@@ -59,7 +48,7 @@ body {
 }
 
 .formtext {
-    color: #b0b0b0;
+    color: #000000;
     font-family: "Space Grotesk-Regular", Helvetica;
     font-size: 16px;
     font-weight: 400;
@@ -68,6 +57,8 @@ body {
     padding: 5px;
     margin-top: 10%;
     margin-left: -7%;
+    background-color: transparent;
+
 }
 
 .submitbtn {
@@ -75,7 +66,7 @@ body {
     font-family: "Space Grotesk-Bold", Helvetica;
     font-size: 20px;
     height: 35px;
-    width: 40%;
+    width: 30%;
     background-color: #000000 !important;
     border-radius: 10px;
     margin-top: 8%;
