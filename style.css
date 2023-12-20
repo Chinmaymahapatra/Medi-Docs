@@ -28,7 +28,7 @@
   margin-left: 350px;
   z-index: 1;
   position: relative;
-  background-color: #DDF2FD;
+  background: linear-gradient(0.25turn, #427D9D, #DDF2FD, #427D9D);
   border-radius: 10px;
 }
 
@@ -41,7 +41,7 @@
 .logos {
   overflow: hidden;
   padding: 60px 0;
-  background: #DDF2FD;
+  background: linear-gradient(0.25turn, #427D9D, #DDF2FD, #427D9D);
   white-space: nowrap;
   position: relative;
 }
@@ -558,8 +558,8 @@ button:focus {
 
 }
 
-#color-card{
-  background:linear-gradient(to left, #427D9D, #DDF2FD);
+#color-card {
+  background: linear-gradient(to left, #427D9D, #DDF2FD);
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -575,16 +575,16 @@ button:focus {
   width: 280px;
 }
 
-.dash-cards{
+.dash-cards {
   margin-left: 300px;
   width: calc(100% - 570px);
   margin-top: 20px;
 }
 
-.user-dash-icon{
+.user-dash-icon {
   margin-left: 5px;
 }
 
-.user-dash-text{
+.user-dash-text {
   color: black;
 }
