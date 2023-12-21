@@ -19,7 +19,7 @@
 <body>
   <div class="main">
     <!-- Navbar -->
-    <header class="border-bottom bg-body-tertiary">
+    <header class="border-bottom bg-body-tertiary ">
       <div class="user-navbar">
         <div class="d-flex flex-wrap justify-content-between">
           <div class="d-flex justify-content-lg-start dash-logo">
@@ -124,13 +124,19 @@
           </div>
         </div>
         <div class="row dash-cards">
-          <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="col-sm-6 mb-3 ">
             <div class="card">
-              <div class="card-body shadow" id="color-card" >
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="user-dash-text">Issued Documents<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
+              <div class="card-body shadow" id="color-card">
+                <div class="user-dash-subcard">
+                  <img src="./images/issued_document.png" alt="" class="user-dash-card-icon">
+                  <div>
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore veritatis deleniti quam.
+                      Impedit, beatae!</p>
+                  </div>
+                </div>
+                <a href="#" class="user-dash-text">Explore Documents<svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
                   </svg></a>
@@ -140,13 +146,19 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body shadow" id="color-card">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="user-dash-text">Search Documents<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                  fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
-                </svg></a>
+                <div class="user-dash-subcard">
+                  <img src="./images/search-data.png" alt="" id="user-dash-card-icon2">
+                  <div>
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore veritatis deleniti quam.
+                      Impedit, beatae!</p>
+                  </div>
+                </div>
+                <a href="#" class="user-dash-text">Search Documents<svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                  </svg></a>
               </div>
             </div>
           </div>
@@ -155,10 +167,16 @@
           <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="card">
               <div class="card-body shadow" id="color-card">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="user-dash-text">Explore Drive<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
+                <div class="user-dash-subcard">
+                  <img src="./images/cloud.png" alt="" id="user-dash-card-icon3">
+                  <div>
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore veritatis deleniti quam.
+                      Impedit, beatae!</p>
+                  </div>
+                </div>
+                <a href="#" class="user-dash-text">Explore Drive<svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
                   </svg></a>
@@ -168,10 +186,16 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body" id="color-card">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="user-dash-text">MediDocs Services<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
+                <div class="user-dash-subcard">
+                  <img src="./images/services.png" alt="" id="user-dash-card-icon4">
+                  <div class="user-dash-subcard-text">
+                    <h3>Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore veritatis deleniti quam.
+                      Impedit, beatae!</p>
+                  </div>
+                </div>
+                <a href="#" class="user-dash-text">MediDocs Services<svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-right-circle user-dash-icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                       d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
                   </svg></a>

@@ -539,7 +539,7 @@ button:focus {
 }
 
 .dash-cardbody {
-  height: 200px;
+  height: 180px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   border-color: #98D9E1;
@@ -564,6 +564,34 @@ button:focus {
   border-radius: 10px;
 }
 
+.user-dash-card-icon{
+  height: 120px;
+  width: 180px;
+}
+
+#user-dash-card-icon2{
+  height: 100px;
+  width: 180px;
+}
+#user-dash-card-icon3{
+  height: 120px;
+  width: 180px;
+}
+
+#user-dash-card-icon4{
+  height: 100px;
+  width: 150px;
+  margin-top: 10px;
+}
+.user-dash-subcard{
+  display: flex;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.user-dash-subcard-text{
+  margin-left: 15px;
+}
 .main {
   /* display: flex; */
   height: 100%;
