@@ -518,6 +518,13 @@ button:focus {
   background-color: #90b9c5 !important;
 }
 
+.user-dash-sideitmes :hover{
+  opacity: 0.99;
+  background-color: #2a5d6c;
+  border-radius: 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
 .dash-logo {
   height: 50px;
   width: 50px;
@@ -561,7 +568,7 @@ button:focus {
 #color-card {
   background: linear-gradient(to left, #427D9D, #DDF2FD);
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 10px ;
 }
 
 .user-dash-card-icon{
