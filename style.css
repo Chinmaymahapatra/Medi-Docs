@@ -518,15 +518,10 @@ button:focus {
   background-color: #90b9c5 !important;
 }
 
-.user-dash-sideitmes{
-  border-radius: 30px;
-  transition-duration: 0.5ms;
-}
 .user-dash-sideitmes :hover{
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: #2a5d6c;
-  font-weight: bold;
-  border: 1px solid black;
+  font-weight: 500;
 }
 .dash-logo {
   height: 50px;
