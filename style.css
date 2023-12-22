@@ -387,6 +387,7 @@ button:focus {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+  background-color: aliceblue;
 }
 
 .about-second-content {
@@ -411,7 +412,6 @@ button:focus {
 .about-third {
   height: 430px;
   width: 100%;
-  background-color: aliceblue;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -438,6 +438,7 @@ button:focus {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+  background-color: aliceblue;
 }
 
 .about-team-content {
@@ -620,4 +621,10 @@ button:focus {
 
 .user-dash-text {
   color: black;
+  text-decoration: none;
+}
+
+.user-dash-text:hover{
+  color: rgb(0, 0, 187) ;
+  text-decoration: underline;
 }
